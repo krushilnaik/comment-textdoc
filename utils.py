@@ -21,7 +21,7 @@ def clean_markdown(md: str):
     """
 
     # Remove special characters
-    md = re.sub(r"[*_~#>`-]", "", md)
+    md = re.sub(r"[*_~#>`]|[-][^\w+]", "", md)
 
     # Replace [text](url) with just "text"
     md = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", md)
