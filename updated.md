@@ -21,7 +21,7 @@ This is a **sample project** demonstrating Markdown with **bold formatting** and
 
 ## More random stuff
 
-This is a line for
+This is a line **for**
 doing split in two
 
 ---
